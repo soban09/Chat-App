@@ -6,9 +6,14 @@
 .input {
   border: none;
   border-radius: 0;
-  padding: 5%;
+  padding: 2%;
   width: 80%;
   font-size: 1.2em;
+}
+
+.error{
+  color: red;
+  font-size: 0.93rem;
 }
 
 input:focus, textarea:focus, select:focus{

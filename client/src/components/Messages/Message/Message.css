@@ -58,10 +58,18 @@
   color: #353535;
 }
 
+.colorRed{
+  color : #cd0220;
+}
+
 .backgroundBlue {
   background: #2979FF;
 }
 
 .backgroundLight {
   background: #F3F3F3;
+}
+
+.backgroundRed{
+  background: #fde4e4;
 }

@@ -54,16 +54,26 @@ html, body {
   margin-top: 20px;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 800px) {
   .joinOuterContainer {
     height: 100%;
   }
 
   .joinInnerContainer {
-    width: 90%;
+    width: 50%;
   }
+}
 
+@media (max-width : 600px){
+  .joinInnerContainer {
+    width: 60%;
+  }
+}
 
+@media (max-width : 400px){
+  .joinInnerContainer {
+    width: 70%;
+  }
 }
 
 button:focus {
