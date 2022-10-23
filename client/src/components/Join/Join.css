@@ -50,6 +50,11 @@ html, body {
     width: 100%;
 }
 
+.button:hover {
+  background : #0144b9;
+  cursor: pointer;
+}
+
 .mt-20 {
   margin-top: 20px;
 }

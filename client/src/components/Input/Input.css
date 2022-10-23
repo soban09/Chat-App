@@ -30,3 +30,8 @@ input:focus, textarea:focus, select:focus{
   border: none;
   width: 20%;
 }
+
+.sendButton:hover {
+  background : #0144b9;
+  cursor: pointer;
+}

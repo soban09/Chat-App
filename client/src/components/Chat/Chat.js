@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import queryString from 'query-string';
 import io from "socket.io-client";
 
-// import TextContainer from '../TextContainer/TextContainer';
 import Messages from '../Messages/Messages';
 import InfoBar from '../InfoBar/InfoBar';
 import Input from '../Input/Input';
@@ -10,6 +9,7 @@ import Input from '../Input/Input';
 import './Chat.css';
 
 const ENDPOINT = 'localhost:5000';
+// const ENDPOINT = 'https://git.heroku.com/react-chat-socket-application.git';
 
 let socket;
 
@@ -60,7 +60,6 @@ const Chat = ({ location }) => {
           <Messages messages={messages} name={name} />
           <Input message={message} setMessage={setMessage} sendMessage={sendMessage} />
       </div>
-      {/* <TextContainer users={users}/> */}
     </div>
   );
 }
