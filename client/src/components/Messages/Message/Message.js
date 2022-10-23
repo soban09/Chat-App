@@ -15,7 +15,7 @@ const Message = ({ message: { text, user }, name }) => {
   }
   else if(user === "admin"){
     const pos = text.search('blocked');
-    if(pos!=-1){
+    if(pos!==-1){
       isThisBlockedMsg=true;
     }
   }
