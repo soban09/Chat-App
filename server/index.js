@@ -20,12 +20,17 @@ const check = (message) => {
     let ans=0;
 
     blockedList.forEach((word) => {
-      let pos = message.search(word);
+      
+      const regex = new RegExp(word, 'i')
+      let pos = message.search(regex);
+
       if(pos!=-1){
-        message = message.replace(word, "****"); 
+        message = message.replace(regex, "****"); 
         ans=1;
       }
+
     })
+
     if(ans===0)
       resolve(message);
     else
