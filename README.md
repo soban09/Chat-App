@@ -4,7 +4,7 @@
 
 <br>
 
-The application is live on **https://63551757ebafdd57ec992def--effortless-panda-e5b1a0.netlify.app/**
+The application is live on **https://sf-reactjs-chat-app-socketio.netlify.app**
 
 <br>
 
