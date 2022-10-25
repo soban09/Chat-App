@@ -14,7 +14,7 @@ const Message = ({ message: { text, user }, name }) => {
     isSentByCurrentUser = true;
   }
   else if(user === "admin"){
-    const pos = text.search('blocked');
+    const pos = text.search('censored');
     if(pos!==-1){
       isThisBlockedMsg=true;
     }
