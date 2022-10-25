@@ -18,13 +18,16 @@ To run this application in your local environment
 
 Some screenshots of the application:
 
-<img src="images/Picture1.png" style="width: 66%; height: 66%; margin-left: auto; margin-right: auto; display: block;">
+<img src="images/1.jpg" style="width: 66%; height: 66%; margin-left: auto; margin-right: auto; display: block;">
 
 <br>
-<img src="images/Picture2.png" style="width: 66%; height: 66%; margin-left: auto; margin-right: auto; display: block;">
+<img src="images/2.jpg" style="width: 66%; height: 66%; margin-left: auto; margin-right: auto; display: block;">
 
 <br>
-<img src="images/Picture3.png" style="width: 66%; height: 66%; margin-left: auto; margin-right: auto; display: block;">
+<img src="images/3.jpg" style="width: 66%; height: 66%; margin-left: auto; margin-right: auto; display: block;">
 
 <br>
-<img src="images/Picture4.png" style="width: 66%; height: 66%; margin-left: auto; margin-right: auto; display: block;">
+<img src="images/4.jpg" style="width: 66%; height: 66%; margin-left: auto; margin-right: auto; display: block;">
+
+<br>
+<img src="images/5.jpg" style="width: 66%; height: 66%; margin-left: auto; margin-right: auto; display: block;">

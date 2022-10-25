@@ -25,7 +25,9 @@ const check = (message) => {
       let pos = message.search(regex);
 
       if(pos!=-1){
-        message = message.replace(regex, "****"); 
+        const len = word.length;
+        let s = new Array(len + 1).join('*');
+        message = message.replace(regex, s); 
         ans=1;
       }
 
@@ -62,7 +64,7 @@ io.on('connect', (socket) => {
       io.to(user.room).emit('message', { user: user.name, text: message });
     }
     catch (newMsg) {
-      socket.emit('message', { user: 'admin', text: `${user.name}, Your message was blocked by admin!`});
+      socket.emit('message', { user: 'admin', text: `${user.name}, Your message was censored by admin!`});
       io.to(user.room).emit('message', { user: user.name, text: newMsg });
     }
         
